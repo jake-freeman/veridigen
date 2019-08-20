@@ -1,0 +1,51 @@
+{
+    "name": "veridian",
+    "main": "src/index.js",
+    "scripts": {
+        "pretest": "eslint ./code",
+        "build": "webpack",
+        "start": "webpack-dev-server",
+        "watch": "webpack --watch --progress"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "devDependencies": {
+        "@babel/core": "^7.4.0",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/preset-env": "^7.4.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-eslint": "^10.0.2",
+        "babel-loader": "^8.0.6",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.0.0",
+        "eslint": "^5.16.0",
+        "eslint-loader": "^2.1.2",
+        "eslint-plugin-jasmine": "^2.10.1",
+        "eslint-plugin-lodash": "^5.1.0",
+        "eslint-plugin-react": "^7.14.3",
+        "exports-loader": "^0.7.0",
+        "expose-loader": "^0.7.5",
+        "file-loader": "^4.0.0",
+        "html-webpack-plugin": "^3.2.0",
+        "imports-loader": "^0.8.0",
+        "node-sass": "^4.10.0",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.1",
+        "terser-webpack-plugin": "^1.2.2",
+        "url-loader": "^2.0.0",
+        "webpack": "^4.25.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.3.1",
+        "webpack-merge": "^4.1.4",
+        "webpack-notifier": "^1.7.0"
+    },
+    "dependencies": {
+        "classnames": "^2.2.6",
+        "core-js": "^3.1.4",
+        "lodash": "^4.17.15",
+        "prop-types": "^15.7.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    }
+}
