@@ -25,11 +25,7 @@ module.exports = merge(commonConfig, {
             errors: true,
             warnings: true
         },
-        port: 80,
-        proxy: [{
-            target: 'localhost',
-            changeOrigin: true
-        }]
+        port: 8080
     },
 
     // Recommended here:
